@@ -1,0 +1,20 @@
+.bg-dark {
+    background-color: #19325A;
+}
+.bg-light {
+    background-color: rgb(37, 77, 139);
+}
+
+.red-color {
+    background-color: #E94154;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+.text-center {
+    text-align: center;
+}

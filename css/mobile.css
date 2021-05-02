@@ -1,0 +1,12 @@
+#navbar {
+    display:block;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0.5rem; 
+}
+
+ul {
+justify-content: space-between;
+}
