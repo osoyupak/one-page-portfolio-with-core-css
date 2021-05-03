@@ -1,20 +1,46 @@
-.bg-dark {
-    background-color: #19325A;
-}
-.bg-light {
-    background-color: rgb(37, 77, 139);
+.text-center {
+    text-align: center;
 }
 
-.red-color {
+.heading-small {
+    font-size:1.25rem;
+}
+
+.heading-medium {
+    font-size:1.5rem;
+}
+
+.heading-big {
+    font-size:2rem;
+}
+
+.bg-dark {
+    background-color: #123747;
+}
+.bg-light {
+    background-color: #246c8b;
+}
+
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1px solid #E94154;
+    color: #E94154;
+}
+
+.btn-primary {
     background-color: #E94154;
 }
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
-
-}
-
-.text-center {
-    text-align: center;
 }

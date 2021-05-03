@@ -10,3 +10,14 @@ h1 {
 ul {
 justify-content: space-between;
 }
+
+
+/* About */
+.about img {
+    max-width: 250px;
+}
+
+/* Academics */
+.academics .items {
+    display: block;
+}
