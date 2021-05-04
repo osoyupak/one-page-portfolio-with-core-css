@@ -3,3 +3,22 @@ ul li a {
     padding: 0.5rem 0.3rem;
     
 }
+
+/* Portfolio */
+#portfolio .items .item{
+    display: block;
+
+}
+
+#portfolio .items .item .image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#portfolio .items .item .content .heading {
+    padding-bottom: 0.5rem;
+}
+
+#portfolio .items .item .content .description {
+    padding-bottom: 0.5rem;
+}

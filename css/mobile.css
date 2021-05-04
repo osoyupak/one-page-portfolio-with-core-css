@@ -11,13 +11,13 @@ ul {
 justify-content: space-between;
 }
 
-
 /* About */
-.about img {
+#about img {
     max-width: 250px;
 }
 
 /* Academics */
-.academics .items {
+#academics .items {
     display: block;
 }
+
