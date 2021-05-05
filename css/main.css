@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:rgb(41, 41, 41);
 }
 
 html {
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
-
+    color:rgb(41, 41, 41);
 }
 
 a {
@@ -24,6 +23,9 @@ header {
 
 header h1 {
     color: white;
+    border: 2px solid white;
+    padding: .5rem;
+    border-radius: 5px;
 }
 
 #navbar {
@@ -32,21 +34,20 @@ header h1 {
     justify-content: space-between;
 }
 
-ul {
+#navbar ul {
     display: flex;    
 }
 
-ul li {
+#navbar ul li {
 list-style: none;
 }
 
-ul li a {
+#navbar ul li a {
     padding: 0.5rem 1rem;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
 
-ul li a:hover {
+#navbar ul li a:hover {
     background-color: #246c8b;
 }
 
@@ -55,6 +56,10 @@ ul li a:hover {
     border-radius: 100%;
     padding: 1.5rem;
     max-width: 350px;
+}
+
+#about .info {
+    margin-bottom: 1rem; 
 }
 
 #about .info p {
@@ -96,7 +101,6 @@ font-size: 0.75rem;
 }
 
 /* Portfolio */
-
 #portfolio .items .item{
     display: flex;
     margin-bottom: 1.5rem; 
@@ -136,4 +140,70 @@ font-size: 0.75rem;
 #portfolio .items .item .content .detail {
     font-style: italic;
     opacity: 0.6;
+}
+
+/* Contact */
+
+footer {
+    color: white;
+}
+
+footer .form-area ul {
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+footer .form-area ul li {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+footer .form-area ul li:hover {
+    opacity: 0.5;
+}
+
+footer .form-area .contact-form {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer .form-area .contact-form button {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    background-color: rgb(231, 231, 231);
+    color: #133848;
+    font-weight: bold;
+}
+
+footer .form-area .contact-form button:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: #133848;
+    cursor: pointer;
+}
+
+footer .form-area .contact-form .form-group {
+    margin-bottom: 1rem;
+}
+
+footer .form-area .contact-form .form-group label {
+    display: block;
+    padding-bottom: 0.25rem; 
+}
+
+footer .form-area .contact-form .form-group textarea,
+footer .form-area .contact-form .form-group input {
+    width: 100%;
+    border-radius: 5px;
+    border: 0px solid;
+    padding: .5rem;
+    font-size: 1rem;
+
+}
+
+footer .form-area .contact-form .form-group textarea {
+    resize: none;
 }

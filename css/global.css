@@ -23,25 +23,25 @@
     background-color: #246c8b;
 }
 
-section { 
+section, footer { 
     padding: 2rem 1rem 1rem 1rem;
 }
 
 /* Buttons */
 .btn {
-    display: inline-block;
     margin-top: 1.5rem;
     padding: 0.5rem 2rem;
     border-radius: 7px;
 }
 
-.btn:hover {
+.btn-primary:hover {
     background-color: white;
     border: 1px solid #E94154;
     color: #E94154;
 }
 
 .btn-primary {
+    display: inline-block;
     background-color: #E94154;
 }
 

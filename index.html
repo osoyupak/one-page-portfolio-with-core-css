@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <!--HEADER-->
     <header class="bg-dark">
         <nav id="navbar" class="container">
             <h1 class="heading-small">Ozan SOYUPAK</h1>
@@ -47,10 +48,10 @@
         <div class="items">
             <article class="item">
                 <a href="">
-                <i class="fas fa-pencil-alt"></i>
-                <p class="title">Papers</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, aut.</p>
-            </a>
+                    <i class="fas fa-pencil-alt"></i>
+                    <p class="title">Papers</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, aut.</p>
+                </a>
             </article>
             <article class="item">
                 <i class="fas fa-project-diagram"></i>
@@ -67,47 +68,76 @@
     <!--PORTFOLIO-->
     <section id="portfolio">
         <div class="container">
-        <h3 class="heading-medium text-center">Portfolio</h3>
-        <div class="items">
-            <!--Item 1-->
-            <div class="item">
-                <div class="image">
-                    <img src="./images/toy.jpg" alt="toy design">
-                    <span>6 Items</span>
+            <h3 class="heading-medium text-center">Portfolio</h3>
+            <div class="items">
+                <!--Item 1-->
+                <div class="item">
+                    <div class="image">
+                        <img src="./images/toy.jpg" alt="toy design">
+                        <span>6 Items</span>
+                    </div>
+                    <div class="content">
+                        <div class="heading heading-small">Toy Design</div>
+                        <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+                            distinctio!</div>
+                        <div class="detail">Lorem ipsum dolor sit amet.</div>
+                    </div>
                 </div>
-                <div class="content">
-                    <div class="heading heading-small">Toy Design</div>
-                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, distinctio!</div>
-                    <div class="detail">Lorem ipsum dolor sit amet.</div>
+                <!--Item 2-->
+                <div class="item">
+                    <div class="image">
+                        <img src="./images/furniture.jpg" alt="furniture design">
+                        <span>7 Items</span>
+                    </div>
+                    <div class="content">
+                        <div class="heading heading-small">Furniture Design</div>
+                        <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+                            distinctio!</div>
+                        <div class="detail">Lorem ipsum dolor sit amet.</div>
+                    </div>
                 </div>
-            </div>
-            <!--Item 2-->
-            <div class="item">
-                <div class="image">
-                    <img src="./images/furniture.jpg" alt="furniture design">
-                    <span>7 Items</span>
-                </div>
-                <div class="content">
-                    <div class="heading heading-small">Furniture Design</div>
-                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, distinctio!</div>
-                    <div class="detail">Lorem ipsum dolor sit amet.</div>
-                </div>
-            </div>
-            <!--Item 3-->
-            <div class="item">
-                <div class="image">
-                    <img src="./images/digital.jpg" alt="digital design">
-                    <span>3 Items</span>
-                </div>
-                <div class="content">
-                    <div class="heading heading-small">Digital Design</div>
-                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, distinctio!</div>
-                    <div class="detail">Lorem ipsum dolor sit amet.</div>
+                <!--Item 3-->
+                <div class="item">
+                    <div class="image">
+                        <img src="./images/digital.jpg" alt="digital design">
+                        <span>3 Items</span>
+                    </div>
+                    <div class="content">
+                        <div class="heading heading-small">Digital Design</div>
+                        <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+                            distinctio!</div>
+                        <div class="detail">Lorem ipsum dolor sit amet.</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
+    <!--CONTACT-->
+    <footer id="contact" class="bg-dark">
+        <div class="form-area">
+            <form class="contact-form">
+                <h4 class="text-center heading-medium">Message Me</h4>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="e-mail">E-mail:</label>
+                    <input type="email" id="e-mail" name="e-mail" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="text">Message:</label>
+                    <textarea name="text" id="text" placeholder="Type Here" rows="10"></textarea>
+                </div>
+                <button class="btn">SEND ME</button>
+            </form>
+            <ul>
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
